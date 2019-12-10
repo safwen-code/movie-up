@@ -11,14 +11,15 @@ const Searchbar = (props) => {
                 className="form-control w-50  "
                 placeholder=" Give me a key to search" />
             <button type="button" onClick={props.filter} class="btn btn-primary ">Search</button>
-            <Rates
+
+            <h2 style={{ margin: "36px" }}> <Rates
                 rating={props.rates}
                 rateChange={props.rateChange}
                 isClickeble={true}
                 filterrates={props.filterrates}
 
 
-            />
+            /></h2>
 
         </div>
     )

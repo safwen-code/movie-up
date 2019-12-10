@@ -17,7 +17,8 @@ const Listmovies = ({ itemmovies }) => {
                     display: "contents"
                 }}>
                     {itemmovies.map((el, i) => (
-                        <Movies itemmovies={el} key={i} />
+                        <div class="col-sm "><Movies itemmovies={el} key={i} /></div>
+
                     ))}
                 </Row>
 

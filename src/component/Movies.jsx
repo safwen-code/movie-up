@@ -10,7 +10,10 @@ const movies = props => {
         <div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top width:125px" src={link} alt="" />
+                    <img class="card-img-top width:125px" style={{
+                        width: "207px",
+                        height: "301px"
+                    }} src={link} alt="" />
                     <div class="card-body">
                         <h5 class="card-title">{titel}</h5>
                         <p class="card-text"></p>
